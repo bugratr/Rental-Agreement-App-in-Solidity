@@ -1,0 +1,30 @@
+{
+  "name": "rental-agreement-dapp",
+  "version": "1.0.0",
+  "description": "A decentralized application for handling rental agreements.",
+  "main": "main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "vue": "^2.6.14",
+    "web3": "^1.5.2"
+    // ... other dependencies
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "truffle": "^5.4.12",
+    "ganache-cli": "^6.12.2"
+    // ... other dev dependencies
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
